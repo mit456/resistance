@@ -18,6 +18,7 @@ class Home extends CI_Controller {
     }
 
     public function index() {
+		echo '1';
         if (!isset($_SESSION['user_id'])) {
             $this->load->view('login');
         } else {
