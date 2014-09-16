@@ -1,0 +1,118 @@
+/* 
+    Document   : style
+    Created on : 12 Sep, 2014, 3:58:30 PM
+    Author     : blah-blah
+    Description:
+        Purpose of the stylesheet follows.
+*/
+@font-face {
+    font-family: "open-sans";
+    src: url("../../fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "open-sans-semibold";
+    src: url("../../fonts/OpenSans-Semibold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "nevis";
+    src: url("../../fonts/nevis.ttf") format("truetype");
+}
+
+root { 
+    display: block;
+}
+
+.header_container{
+    background-color: #6f5499;
+    border-radius: 0px;
+}
+
+.footer_container{
+    padding: 6px;
+    padding-right: 14px;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.form-container{
+    margin-top:9%;
+
+}
+
+.row{
+    margin: 0 auto;
+    max-width: 78%;
+}
+
+.heading{
+    color: white;
+}
+
+label.error {
+    color: red;
+    display: block;
+    padding: 2px 8px;
+    margin-top: 2px;
+}
+.form-control{
+    border-radius: 0px;
+}
+
+.modal img {
+    width: 75px;
+    height: 75px;
+}
+
+.modal .text-message {
+    font-weight: normal;
+    margin-top: 25px;
+    font-family: open-sans-semibold;
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 27px;
+}
+
+.loading_image {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba( 255, 255, 255, .8 ) url('/static/images/ajax-loader.gif') 50% 50% no-repeat;
+}
+.my_button {
+    color: white;
+    background-color: #6f5499;
+    border-color: #ccc;
+}
+.my_button:hover {
+    color: white;
+    background-color: rgba(118, 61, 206, 0.85);;
+    border-color: #adadad;
+}
+.modal-header .close {
+    margin-top: -26px;
+}
+
+.message_div{
+    min-height: 108px;
+}
+
+.comment_div {
+    margin-top: 3%;
+    margin-left: 36%;
+}
+
+@media (min-width: 992px) {
+    .label_email{
+        margin-left: 8.11%;
+    }
+    .label_password{
+        margin-left:8%;
+    }
+
+}
